@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            html,body{height:100%;width:100%;box-sizing: border-box;}
+            body{padding:8px;margin:0;}
+            #log {
+                background-color: black;
+                color: #00ff00;
+                font-family: 'Courier New', Courier, monospace;
+                width: 100%;
+                height: calc(100% - 180px);
+                display: block;
+                overflow: scroll;
+            }
+            ::-webkit-scrollbar {
+                background:black;
+            }
+            ::-webkit-scrollbar-corner {
+                background:black;
+            }
+            ::-webkit-scrollbar-thumb {
+                background: #00ff00;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Pick a script to brutally shove into this page.</h1>
+            <label for="sS">Please put in a number:</label>
+            <input type="number" name="sS" id="sSr" />
+            <button onclick="gsi()">Append</button>
+            <button onclick="ds()">Remove Scripts from DOM</button>
+            <button onclick="cc()">Clear Console</button>
+            <h1>Console:</h1>
+        </div>
+        <div id="log"></div>
+    </body>
+    <!-- make appendage of script easy ! ! ! ! ! -->
+    <script>
+        // get num from input respective to js script (keep scripts numbered)
+        function gsi() {
+            var sn = parseInt(document.getElementById("sSr").value);
+            var scr = document.createElement('script');
+            scr.setAttribute('src', sn + '.js');
+            scr.setAttribute('class', 'scs');
+            document.body.appendChild(scr);
+        }
+        // recursively delete appended scripts
+        function ds() {
+            const el = document.getElementsByClassName('scs');
+            while(el.length > 0){
+                el[0].parentNode.removeChild(el[0]);
+            }
+        }
+        // clear console
+        function cc() {
+            var lgr = document.getElementById('log');
+            lgr.innerHTML = '';
+        }
+    </script>
+    <script>
+        // https://stackoverflow.com/questions/20256760/javascript-console-log-to-html
+        // this literally hooks into console.log to make it html instead of the console
+        // why?
+        // yes.
+        (function () {
+            if (!console) {
+                console = {};
+            }
+            var old = console.log;
+            var logger = document.getElementById('log');
+            console.log = function (message) {
+                if (typeof message == 'object') {
+                    logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : String(message)) + '<br />';
+                } else {
+                    logger.innerHTML += message + '<br />';
+                }
+            }
+        })();
+    </script>
+</html>
