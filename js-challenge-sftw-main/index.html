@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Valentines</title>
+        <link rel="stylesheet" href="index.css">
+        <!--fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="flexy">
+            <div class="parent">
+                <!--header-->
+                <div class="div1"> 
+                    <h1 class="head">Valentines Trivia</h1>
+                </div>
+                <!--q1-->
+                <div id="div2"> 
+                    <p class="ques">How many millions of couples are estimated<br/>to get married this Valentine's day?</p>
+                    <div class="sliderow">
+                        <input type="range" id="q1" min="1" max="10" value="5">
+                        <span id="q1v"></span>
+                    </div>
+                </div>
+                <!--q2-->
+                <div id="div3"> 
+                    <p class="ques">How many millions of<br/>cards are sent each year?</p>
+                    <div class="sliderow">
+                        <input type="range" id="q2" min="130" max="160" value="150">
+                        <span id="q2v"></span>
+                    </div>
+                </div>
+                <!--q3-->
+                <div id="div4"> 
+                    <p class="ques">How many millions of heart-shaped<br/>chocolate boxes are sold each year?</p>
+                    <div class="sliderow">
+                        <input type="range" id="q3" min="25" max="45" value="30">
+                        <span id="q3v"></span>
+                    </div>
+                </div>
+                <!--q4-->
+                <div id="div5"> 
+                    <p class="ques">How many billion converstaion hearts<br/>are manufactured each year?</p>
+                    <div class="sliderow">
+                        <input type="range" id="q4" min="5" max="15" value="10">
+                        <span id="q4v"></span>
+                    </div>
+                </div>
+                <!--submit-->
+                <div class="div6"> 
+                    <button onclick="subAnsw()">Submit answers.</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+        <script>
+            var sld1 = document.getElementById("q1");
+            var out1 = document.getElementById("q1v");
+            var sld2 = document.getElementById("q2");
+            var out2 = document.getElementById("q2v");
+            var sld3 = document.getElementById("q3");
+            var out3 = document.getElementById("q3v");
+            var sld4 = document.getElementById("q4");
+            var out4 = document.getElementById("q4v");
+            out1.innerHTML = sld1.value;
+            out2.innerHTML = sld2.value;
+            out3.innerHTML = sld3.value;
+            out4.innerHTML = sld4.value;
+            sld1.oninput = function() {out1.innerHTML = this.value;}
+            sld2.oninput = function() {out2.innerHTML = this.value;}
+            sld3.oninput = function() {out3.innerHTML = this.value;}
+            sld4.oninput = function() {out4.innerHTML = this.value;}
+        </script>
+    </body>
+</html>
