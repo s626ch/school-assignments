@@ -1,0 +1,160 @@
+/* do not touch the code below here. Start all your code at the "START YOUR CSS HERE" line. */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Nav Bar*/
+.mainNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#111;
+  }
+  .mainNav li {
+    float: left;
+  }
+  .mainNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .mainNav li a:hover {
+    background-color: dodgerblue;
+  }
+/* Write all your code below this line */
+/* START YOUR CSS HERE */
+body>* {
+  font-family: sans-serif;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url('/images/image1.jpg');
+  padding: 150px 0 150px 0;
+  text-align: center;
+  font-size: 3em;
+}
+
+#welcomeMessage {
+  margin: 50px 0 0 0;
+}
+
+#welcomeMessage h1,
+#welcomeMessage h2 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#welcomeMessage h2 {
+  margin: 0 0 10px 0;
+}
+
+#favoriteFoodList {
+  text-align: center;
+  border: 2px solid #111;
+  margin: 0 50px 0 50px;
+  padding: 20px;
+  padding-left: 40px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 20px;
+}
+
+.articles {
+  margin: 50px;
+  border: 2px thick #111;
+}
+
+.articles h1 {
+  color: white;
+  background-color: #111;
+  padding: 15px;
+  font-size: 36px;
+}
+
+.articles>p {
+  font-weight: bold
+}
+
+aside>p {
+  color: dodgerblue;
+  font-style: italic;
+}
+
+.articles figure>img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.articles>p,
+.articles>figure {
+  padding: 15px;
+}
+
+.articles figcaption {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.mainFooter {
+  background-color: #111;
+  padding: 50px 0 50px 0;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+}
+
+.mainFooter>p {
+  width: 200px;
+  float: left;
+  padding: 0 0 0 50px;
+  font-weight: bold;
+}
+
+.mainFooter>#mailToMe {
+  text-align: right;
+  float: right;
+  padding: 0 50px 0 0;
+}
+
+.mainFooter>#mailToMe>a {
+  text-decoration: none;
+  color: dodgerblue;
+  text-align: right;
+}
+
+.articles h2,
+.articles h3,
+.articles h4 {
+  text-align: center;
+  text-decoration: none !important;
+  color: #111;
+}
+
+.articles ul {
+  padding: 15px 0 15px 30px;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+.articles iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.articles {
+  border: 1px solid #111;
+}
+
+.articles>header>h2 {
+  padding: 15px 0 15px 0;
+}
+
+.articles>aside>p {
+  padding: 15px 30px 15px 30px;
+}
