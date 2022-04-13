@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Holiday BMI Calc</title>
+        <link rel="stylesheet" href="index.css">
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="flexCenter">
+            <div class="treeHolder tree1">
+                <img src="img/tree.png" alt="Tree">
+            </div>
+            <div class="calcContainer">
+                <h1 class="header">Holiday BMI <span class="italic">calculator!</span></h1>
+                <h3 class="header">How much weight did <u>you</u> gain over the holidays?</h3>
+                <p class="header">
+                    Numbers <b>MUST</b> be in <span class="italic">imperial</span> units.
+                </p>
+                <button id="changeModeButton" onclick="changeModeMetric();">Change to Metric inputs.</button>
+                <h2 class="result" id="calcResult">Result: </h2>
+                <button id="bmiButton" onclick="popitup('../img/bmi-chart.png','BMI Chart');">Show BMI chart!</button>
+                <!-- grid for inputs -->
+                <div class="parent">
+                    <!-- weight -->
+                    <div class="div1">
+                        <input type="number" name="weightVal" id="weightInput" placeholder="Weight, pounds.">
+                    </div>
+                    <!-- height -->
+                    <div class="div2">
+                        <input type="number" name="heightVal" id="heightInput" placeholder="Height, inches.">
+                    </div>
+                    <!-- submit button -->
+                    <div class="div3">
+                        <button type="submit" id="calcButton" onclick="calculateBmiImp();">Calculate!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="treeHolder tree2">
+                <img src="img/tree.png" alt="Tree">
+            </div>
+        </div>
+        <script src="index.js"></script>
+        <script src="js/snow.js"></script>
+    </body>
+</html>
