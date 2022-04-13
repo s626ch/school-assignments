@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 10;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.inputFields{
+padding: 10px;
+margin: 10px;
+font-size: 20px;
+}
+
+#wrapper{
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 700px;
+    background-color: antiquewhite;
+    
+}
+
+#banner{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: White;
+    /* background-color: black; */
+    text-align: center;
+    padding: 35px 0 0 0;
+    text-shadow: 3px 3px 1px black; 
+
+}
+#titleHeader{
+    font-size: 75px;
+}
+#bannerMessage{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: rgb(94, 255, 0);
+    /* background-color: black; */
+    text-align: center;
+    padding: 0 0 25px 0;
+    text-shadow: 3px 3px 1px black; 
+}
+#bannerMessage{
+    font-size: 35px;
+}
+
+#backgroundImg{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url("https://www.30bird.com/wp-content/uploads/2019/01/shutterstock_83595508.jpg");
+    background-position: center; 
+}
+#backgroundImg2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: rgba(0, 0, 0, 0.678);
+    background-position: center; 
+}
+#dataCollection{
+    padding: 15px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+
+#results{
+    padding: 10px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+#submitBtn{
+    padding: 10px;
+    margin: 10%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    font-size: 20px;
+}
+
+#clearBtn{
+    padding: 10px;
+    margin: 10%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    font-size: 20px;
+}
+
+.inputTitles{
+    padding: 20px;
+    text-align: right;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-size: 22px;
+}
+
+.inputFields{
+    padding: 5px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#testHeader{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    font-size: 30px;
+}
+#testResults{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    font-size: 40px;
+    text-align: left;
+}
+#testMessage{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    font-size: 30px;
+}
+
+.testResultsGroup{
+    margin: 15px;
+}
+
+#testIcon{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    font-size: 60px;
+    text-align: center;
+    color: red;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+table{
+    width: 100%;
+}
+  th, td{
+    text-align: center;
+  }
+  th{
+      background-color: black;
+      color:white;
+      padding: 10px 0px 10px 0px;
+      border: 1px solid antiquewhite;
+  }

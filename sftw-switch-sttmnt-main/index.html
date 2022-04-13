@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Calculator</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="backgroundImg"></div>
+        <div id="backgroundImg2"></div>
+        <header id="banner"><h1 id="titleHeader">Test Score Calculator</h1></header>
+        <header id="bannerMessage"><h2 id="titleMessage">Input Your Data Below</h2></header>
+        
+      
+        <!-- <div id="dataCollection"> -->
+        <h3 class="inputTitles" id="hTestDate">Test Date</h3>
+        <input class="inputFields" id="testDate" type="date" />
+        <h3 class="inputTitles" id="titleSubject">Subject</h3>
+        <input class="inputFields" id="subject" type="text" placeholder="Enter Class Name" />
+        <h3 class="inputTitles" id="hNumberOfQuestions">Number of Questions</h3>
+        <input class="inputFields" id="numberOfQuestions" type="number" placeholder="# of Questions on Exam" />
+        <h3 class="inputTitles" id="hNumberCorrect">Number Correct</h3>
+        <input class="inputFields" id="numberCorrect" type="number" placeholder="# of Questions You Got Correct"/>
+
+        <button id="submitBtn" onclick="testResults()">Calculate</button>
+        <button id="clearBtn" onclick="clearResults()">Clear</button>
+  
+        <h3 id="testHeader" class="testResultsGroup">Your Letter Grade Is:</h3>
+        <h2 id="testResults" class="testResultsGroup">Test Scores Incoming</h2>
+        <h3 id="testMessage" class="testResultsGroup">Message About Your Scores...</h3>
+        <h2 id="testIcon" class="testResultsGroup">🎓🍎</h2>
+  
+      </div>
+      <div id="tracking">
+          
+        <table id="data">
+          <tr>
+            <th id="gridDate">Date</th>
+            <th id="gridSubject">Subject</th>
+            <th id="gridTestName">Test Name</th>
+            <th id="gridNumCorrect">% Correct</th>
+            <th id="gridGrade">Letter Grade</th>
+          </tr>
+        </table>
+      </div>
+      <script src="script/script.js"></script>
+</body>
+</html>
