@@ -1,0 +1,54 @@
+html,body{margin:0;padding:0;height:100%;width:100%;}
+*{box-sizing:border-box;}
+.moneylbl{font-size:32px}
+#moneyamount{font-size:32px;border-top:0;border-right:0;border-bottom:0;}
+.calcContainer>span {font-size:24px;padding-left:24px;}
+#fAmnt,#qAmnt,#dAmnt,#nAmnt,#pAmnt{font-weight:bold;float:right;padding-right:24px;}
+span,p,input,button{color:white;}
+.moneyinput{
+    background-color:rgba(0, 0, 0, 0.5);
+    border:2px solid white;
+}
+button,input{background-color:rgba(0, 0, 0, 0.5);border:2px solid white;}
+body{overflow: hidden;background:black;}
+.background{position:absolute;font-size:100vh;left:0;top:0;user-select:none;z-index:-5000;color:#00ff008c;text-align: center;width:100%;margin:0;line-height:100vh;}
+.flexy{display:flex;width:100%;height:100%;align-items: center;justify-content: center;}
+.buttonContainer{text-align: center;}
+button{font-size:32px;-webkit-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;}
+button:hover {
+    background-color: rgba(41, 41, 41, 0.5);
+}
+button:active {
+    background-color: rgba(68, 68, 68, 0.5);
+    -webkit-transition: background-color .05s ease-in-out;
+    transition: background-color .05s ease-in-out;
+}
+@keyframes moneyAnim {
+    0% {
+        transform:rotate(0deg);
+        color:#00ff0020;
+    }
+    5% {
+        color:#00ff0020;
+    }
+    45% {
+        color:#00ff00;
+    }
+    50% {
+        transform:rotate(180deg);
+        color:#00ff00;
+    }
+    55% {
+        color:#00ff00;
+    }
+    95% {
+        color:#00ff0020;
+    }
+    100% {
+        transform:rotate(360deg);
+        color:#00ff0020;
+    }
+}
+.background{animation: moneyAnim 10s infinite linear forwards;}
+.calcContainer{background-color:rgba(0, 0, 0, 0.5);padding:12px 32px 12px 32px;backdrop-filter: blur(8px);}

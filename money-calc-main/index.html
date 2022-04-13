@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Money Calculator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <span class="background">$</span>
+        <div class="flexy">
+            <div class="calcContainer">
+                <div class="moneyinput">
+                    <span class="moneylbl">&nbsp;How many doubloons? (Pennies)&nbsp;</span>
+                    <input type="number" name="moneyamnt" id="moneyamount" min="0" oninput="calcUlation()">
+                </div>
+                <span class="dollars">Amount of dollars:&nbsp;<span id="fAmnt"></span></span></br>
+                <span class="quarters">Amount of quarters:&nbsp;<span id="qAmnt"></span></span></br>
+                <span class="dimes">Amount of dimes:&nbsp;<span id="dAmnt"></span></span></br>
+                <span class="nickels">Amount of nickels:&nbsp;<span id="nAmnt"></span></span></br>
+                <span class="pennies">Amount of pennies:&nbsp;<span id="pAmnt"></span></span></br>
+                <div class="buttonContainer">
+                    <!-- <button onclick="calcUlation()">Calculate</button> -->
+                    <button onclick="clearInps()" style="width:100%;">Clear</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
