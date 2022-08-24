@@ -1,0 +1,32 @@
+libs taken from:
+https://www.madtakes.com/libs/172.html
+https://www.madtakes.com/libs/126.html
+https://www.madtakes.com/libs/055.html
+
+verb ----------------- string1
+adjective ------------ string2
+noun (plural) -------- string3
+adjective 2 ---------- string4
+verb (ing) ----------- string5
+verb 2 --------------- string6
+number --------------- string7
+adjective 3 ---------- string8
+noun (plural) 2 ------ string9
+noun (plural) 3 ------ string10
+noun (plural) 4 ------ string11
+relative (plural) ---- string12
+adjective 4 ---------- string13
+adjective 5 ---------- string14
+noun (plural) 5 ------ string15
+----------------------
+noun ----------------- string16
+cereal brand --------- string17
+noun 2 --------------- string18
+type of container ---- string19
+noun 3 --------------- string20
+noun 4 --------------- string21
+noun 5 --------------- string22
+----------------------
+body part (plural) --- string23
+rude action ---------- string24
+your worst teacher --- string25
