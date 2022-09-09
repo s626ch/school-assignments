@@ -1,0 +1,8 @@
+C:\Users\gilbey_gage\Downloads\PenniesBeCounting-master\PenniesBeCounting\bin\Debug\moneycounter.exe.config
+C:\Users\gilbey_gage\Downloads\PenniesBeCounting-master\PenniesBeCounting\bin\Debug\moneycounter.exe
+C:\Users\gilbey_gage\Downloads\PenniesBeCounting-master\PenniesBeCounting\bin\Debug\moneycounter.pdb
+C:\Users\gilbey_gage\Downloads\PenniesBeCounting-master\PenniesBeCounting\obj\Debug\moneycounter.csproj.AssemblyReference.cache
+C:\Users\gilbey_gage\Downloads\PenniesBeCounting-master\PenniesBeCounting\obj\Debug\moneycounter.csproj.SuggestedBindingRedirects.cache
+C:\Users\gilbey_gage\Downloads\PenniesBeCounting-master\PenniesBeCounting\obj\Debug\moneycounter.csproj.CoreCompileInputs.cache
+C:\Users\gilbey_gage\Downloads\PenniesBeCounting-master\PenniesBeCounting\obj\Debug\moneycounter.exe
+C:\Users\gilbey_gage\Downloads\PenniesBeCounting-master\PenniesBeCounting\obj\Debug\moneycounter.pdb
