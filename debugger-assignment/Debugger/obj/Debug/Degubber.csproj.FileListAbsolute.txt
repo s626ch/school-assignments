@@ -1,0 +1,7 @@
+C:\Users\Michael Sekol\Desktop\C# Juniors\Degubber\Degubber\bin\Debug\Degubber.exe.config
+C:\Users\Michael Sekol\Desktop\C# Juniors\Degubber\Degubber\bin\Debug\Degubber.exe
+C:\Users\Michael Sekol\Desktop\C# Juniors\Degubber\Degubber\bin\Debug\Degubber.pdb
+C:\Users\Michael Sekol\Desktop\C# Juniors\Degubber\Degubber\obj\Debug\Degubber.csprojAssemblyReference.cache
+C:\Users\Michael Sekol\Desktop\C# Juniors\Degubber\Degubber\obj\Debug\Degubber.csproj.CoreCompileInputs.cache
+C:\Users\Michael Sekol\Desktop\C# Juniors\Degubber\Degubber\obj\Debug\Degubber.exe
+C:\Users\Michael Sekol\Desktop\C# Juniors\Degubber\Degubber\obj\Debug\Degubber.pdb
