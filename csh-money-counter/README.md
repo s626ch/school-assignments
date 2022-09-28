@@ -1,3 +1,3 @@
 # money counter yippieee
 
-Repo created: 9/9/2022.
+Repo created: Repo created: September 9th, 2022.
