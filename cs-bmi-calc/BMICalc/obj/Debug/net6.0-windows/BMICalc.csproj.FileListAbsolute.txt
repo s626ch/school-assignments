@@ -1,0 +1,42 @@
+F:\Software Engineering files\C#\BMICalc\BMICalc\bin\Debug\net6.0-windows\BMICalc.exe
+F:\Software Engineering files\C#\BMICalc\BMICalc\bin\Debug\net6.0-windows\BMICalc.deps.json
+F:\Software Engineering files\C#\BMICalc\BMICalc\bin\Debug\net6.0-windows\BMICalc.runtimeconfig.json
+F:\Software Engineering files\C#\BMICalc\BMICalc\bin\Debug\net6.0-windows\BMICalc.dll
+F:\Software Engineering files\C#\BMICalc\BMICalc\bin\Debug\net6.0-windows\BMICalc.pdb
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.csproj.AssemblyReference.cache
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\MainWindow.g.cs
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\App.g.cs
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc_MarkupCompile.cache
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc_MarkupCompile.lref
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\MainWindow.baml
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.g.resources
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.GeneratedMSBuildEditorConfig.editorconfig
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.AssemblyInfoInputs.cache
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.AssemblyInfo.cs
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.csproj.CoreCompileInputs.cache
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.dll
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\refint\BMICalc.dll
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.pdb
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.genruntimeconfig.cache
+F:\Software Engineering files\C#\BMICalc\BMICalc\obj\Debug\net6.0-windows\ref\BMICalc.dll
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\bin\Debug\net6.0-windows\BMICalc.exe
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\bin\Debug\net6.0-windows\BMICalc.deps.json
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\bin\Debug\net6.0-windows\BMICalc.runtimeconfig.json
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\bin\Debug\net6.0-windows\BMICalc.dll
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\bin\Debug\net6.0-windows\BMICalc.pdb
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.csproj.AssemblyReference.cache
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc_MarkupCompile.cache
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc_MarkupCompile.lref
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.g.resources
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.AssemblyInfoInputs.cache
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.AssemblyInfo.cs
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.csproj.CoreCompileInputs.cache
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.dll
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\refint\BMICalc.dll
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.pdb
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\BMICalc.genruntimeconfig.cache
+C:\Users\gilbey_gage\Downloads\BMICalc\BMICalc\obj\Debug\net6.0-windows\ref\BMICalc.dll
