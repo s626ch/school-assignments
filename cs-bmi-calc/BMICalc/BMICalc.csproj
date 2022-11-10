@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <PackageIcon>934870806238994452.jpg</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="934870806238994452.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\934870806238994452.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="934870806238994452.jpg" />
+  </ItemGroup>
+
+</Project>
