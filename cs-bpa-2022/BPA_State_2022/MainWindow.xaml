@@ -1,0 +1,31 @@
+﻿<Window x:Class="BPA_State_2022.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BPA_State_2022"
+        mc:Ignorable="d"
+        Title="World Capital Quiz" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid Margin="0,18,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="txtQuestion" Content="Question goes here..." HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Grid.ColumnSpan="4" Width="688" FontSize="36" Height="84" FontWeight="SemiBold" HorizontalContentAlignment="Center"/>
+        <Button x:Name="btnSubmit" Grid.Column="2" Content="Submit" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="50" Width="100" FontSize="24" Click="btnSubmit_Click"/>
+        <Button x:Name="btnNext" Grid.Column="3" Content="Next" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="3" VerticalAlignment="Center" Height="50" Width="100" FontSize="24" Click="btnNext_Click"/>
+        
+        <RadioButton x:Name="rdoAnswer1" Grid.Column="1" Content="Answer 1" HorizontalAlignment="Left" Margin="26,26,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="rdoAnswer2" Grid.Column="1" Content="Answer 2" HorizontalAlignment="Left" Margin="26,56,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="rdoAnswer3" Grid.Column="1" Content="Answer 3" HorizontalAlignment="Left" Margin="26,86,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="rdoAnswer4" Grid.Column="1" Content="Answer 4" HorizontalAlignment="Left" Margin="26,116,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="14"/>
+
+    </Grid>
+</Window>
