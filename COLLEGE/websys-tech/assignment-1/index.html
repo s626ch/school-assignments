@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <!-- 626 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parentcontainer">
+        <div class="leftcontainer fxwd">
+            <h1>Assignment 1</h1>
+            <div class="splitrow"></div>
+            <p>
+                This is an <b>example paragraph</b> featured on my submission for the first assignment for this class.<br/>
+                My <i>GOAT</i> <sup>(Greatest of all Time)</sup> when it comes to films is <i>Lilo & Stitch</i> (and the following films, and TV series.)<br/>
+            </p>
+            <div class="warning">This page is still a work in progress!</div>
+            <div class="splitrow"></div>
+            <div class="quote">Monstrosity? What you see before you is the first of a new species. I call it Experiment 626. He is bulletproof, fireproof, and can think faster than [a] supercomputer. He can see in the dark, and lift objects three thousand times his size. His only instinct... to destroy everything he touches!</div>
+            <div class="splitrow"></div>
+            <p>Did you know you can do some cool things with css pseudo-elements? Here's a sample of the code for the "&lt;&sol;&gt;" as shown in the below code block.</p>
+            <code class="codeblock">
+                <p>
+                    <span class="cbclass">.codeblock</span> <span class="cbbrk">{</span><br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="cbprop">background-color</span><span class="cbnum">:</span> <span class="cbprop">black;</span><br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="cbprop">position</span><span class="cbnum">:</span> <span class="cbprop">relative;</span><br/>
+                    <span class="cbbrk">}</span><br/>
+                    <span class="cbclass">.codeblock:after</span> <span class="cbbrk">{</span><br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="cbprop">content</span><span class="cbnum">:</span> <span class="cbstr">"&lt;&sol;&gt;"</span><span class="cbprop">;</span><br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="cbprop">display</span><span class="cbnum">:</span> <span class="cbprop">block;</span><br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="cbprop">position</span><span class="cbnum">:</span> <span class="cbprop">absolute;</span><br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="cbprop">right</span><span class="cbnum">: 8</span><span class="cbelem">px</span><span class="cbprop">;</span><br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="cbprop">bottom</span><span class="cbnum">: 8</span><span class="cbelem">px</span><span class="cbprop">;</span><br/>
+                    <span class="cbbrk">}</span><br/>
+                </p>
+            </code>
+            <p>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank">Here's a link</a> to the MDN documentation on CSS pseudo-elements, it includes links to pages for each pseudo-element. 
+            </p>
+            <div class="splitrow"></div>
+            <p class="txcent">
+                <b>massive</b><br/>
+                CHOP!<br/>
+                H I G H B I A S
+            </p>
+            <div class="flexBar">
+                <audio src="massive.mp3" controls class="audioElem" aria-label="Track 1 off of 'HIGH BIAS' by 'CHOP!', this track is a short, wavy introduction featuring a looped sample, a simple drum beat, many 'cling' hits, it's very ethereal."></audio>
+                <div class="coverArt" title='Cover art for "HIGH BIAS" by "CHOP!"'>Cover art for "HIGH BIAS" by "CHOP!"</div>
+            </div>
+            <div class="splitrow"></div>
+            <video src="cs.mp4" controls class="videoOnsite" aria-label="A video of a crowd, black and white doodle-style, with the camera following one character, the crowd strays away from that one character, leaving a gap between them and the rest. There's white text with black border over-top saying 'Hello guys, nice to meet you, I study Computer Science!'"></video>
+        </div>
+        <div class="rightcontainer fxwd">
+            <h1>Form</h1>
+            <form action="" method="post" class="formtbl">
+                <fieldset>
+                    <legend>Application:</legend>
+                    <div class="formrow">
+                        <label for="txtinp">Reason for Applying: </label>
+                        <input type="text" name="txtinp" id="txtinp" placeholder="Keep it short!">
+                    </div>
+                    <div class="formrow">
+                        <label for="emlinp">Email Address: </label>
+                        <input type="email" name="emlinp" id="emlinp" placeholder="e.g. stitch@liloandstit.ch">
+                    </div>
+                    <div class="formrow">
+                        <label for="telinp">Phone Number: </label>
+                        <input type="tel" name="telinp" id="telinp" placeholder="e.g +1 (123) 555-1234">
+                    </div>
+                    <div class="formrow">
+                        <label for="numinp">Favorite Number: </label>
+                        <input type="number" name="numinp" id="numinp" placeholder="Whichever one!">
+                    </div>
+                    <div class="formrow">
+                        <label for="pswdinp">Password: </label>
+                        <input type="password" name="pswdinp" id="pswdinp" placeholder="Make it secure!">
+                    </div>
+                    <div class="formrow">
+                        <label for="educlvl">Level of Education: </label>
+                        <select name="educlvl" id="educlvl">
+                            <option value="">Please choose an option!</option>
+                            <option value="highschool">In Highschool or Equivalent</option>
+                            <option value="hsgrad">Highschool Graduate</option>
+                            <option value="collegestudent">Current College Student</option>
+                            <option value="associates">Associates Degree</option>
+                            <option value="bachelors">Bachelors Degree</option>
+                            <option value="masters">Masters Degree</option>
+                            <option value="doctoral">Doctoral Degree</option>
+                        </select>
+                    </div>
+                    <div class="splitrow"></div>
+                    <p>Years of experience:</p>
+                    <div class="formrow">
+                        <input type="radio" name="oneyr" id="oneyr">
+                        <label for="oneyr">1 year</label>
+                    </div>
+                    <div class="formrow">
+                        <input type="radio" name="twoyrs" id="twoyrs">
+                        <label for="oneyr">2 years</label>
+                    </div>
+                    <div class="formrow">
+                        <input type="radio" name="threeyr" id="threeyr">
+                        <label for="oneyr">3 or more years</label>
+                    </div>
+                    <div class="splitrow"></div>
+                    <p>Preferred method(s) of contact?</p>
+                    <div class="formrow">
+                        <input type="checkbox" name="prefeml" id="prefeml">
+                        <label for="prefeml">Email</label>
+                    </div>
+                    <div class="formrow">
+                        <input type="checkbox" name="prefphncall" id="prefphncall">
+                        <label for="prefphncall">Phone Call</label>
+                    </div>
+                    <div class="formrow">
+                        <input type="checkbox" name="prefphntxt" id="prefphntxt">
+                        <label for="prefphntxt">Text to Phone</label>
+                    </div>
+                    <div class="splitrow"></div>
+                    <p>Upload your resume:</p>
+                    <div class="formrow">
+                        <label for="rsmupl">We accept MS Word documents, or PDF.</label>
+                        <input type="file" name="rsmupl" id="rsmupl" accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
+                    </div>
+                    <div class="splitrow"></div>
+                    <div class="txcent">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </fieldset>
+            </form>
+            <img src="vile-stitch-perky.png" alt="A drawing of Stitch looking at you, drawn by my friend Vile" title="A drawing of Stitch looking at you, drawn by my friend Vile" class="rightFootImage">
+        </div>
+    </div>
+</body>
+</html>

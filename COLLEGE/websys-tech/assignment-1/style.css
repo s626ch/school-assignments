@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+h1,h2,h3,h4,h5,h6,p,span,a,*{font-family:"Ubuntu",serif;}
+.parentcontainer{width:1042px;margin-left:auto;margin-right:auto;}
+.warning:before{content:"\26A0";display:block;position:absolute;color:rgba(0, 0, 0, 0.459);font-size:60px;top:-28px;right:24px;pointer-events:none;}
+.warning{background-color:rgba(255, 255, 134, 0.534);border:1px dotted rgb(136, 136, 3);border-radius:4px;margin:8px;padding:8px;position:relative;overflow:hidden;}
+.quote:before{content:"\275D";display:block;position:absolute;color:rgba(0, 0, 0, 0.459);font-size:60px;top:-16px;left:0px;pointer-events:none;}
+.quote{background-color:rgba(134, 176, 255, 0.534);border:1px dotted rgb(3, 72, 136);border-radius:4px;margin:8px;padding:8px;position:relative;overflow:hidden;}
+.quote:after{content:"\275E";display:block;position:absolute;color:rgba(0, 0, 0, 0.459);font-size:60px;bottom:-32px;right:0px;pointer-events:none;}
+.codeblock{background-color:black;padding:2px 16px 2px 16px;margin:8px;display:block;position:relative;}
+.codeblock p{color:white;font-family: "Ubuntu Mono",monospace;}
+.codeblock p span.cbelem{color:#225588;}
+.codeblock p span.cbclass{color:#ddbb88;}
+.codeblock p span.cbprop{color:#9966b8;}
+.codeblock p span.cbstr{color:#22aa44;}
+.codeblock p span.cbnum{color:#f280d0;}
+.codeblock p span.cbbrk{color:#ffd700;}
+.codeblock:after{content:"</>";display:block;position:absolute;pointer-events:none;font-family:"Ubuntu Mono",monospace;font-weight:bold;color:rgba(255, 255, 255, 0.5);font-size:24px;right:8px;bottom:8px;}
+.leftcontainer{float:left;padding-right:7px;border-right:1px solid black;}
+.rightcontainer{float:right;padding-left:8px;}
+.fxwd{width:512px;margin-bottom:8px;}
+.flexBar{display:flex;flex-direction:row;}
+.coverArt{background-image:url('cover.jpg');background-position:center;background-repeat:no-repeat;background-size:contain;width:100%;font-size:0;color:transparent;}
+.audioElem{width:100%;}
+.splitrow{width:100%;margin:8px 0 8px 0;border-top:1px solid black;padding:0;height:0;}
+.txcent{text-align:center;}
+.videoOnsite,.rightFootImage{width:100%;height:auto;}
+.rightFootImage{margin-top:8px;}
+.formtbl{display:table;width:100%;margin-top:-8px;}
+.formrow{display:table-row;}
+.formtbl label,.formtbl input{display:table-cell;margin-bottom:10px;}
+.formtbl label{padding-right:10px;}
+fieldset{border-color:black;border-width:1px;}
