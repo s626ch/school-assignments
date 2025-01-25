@@ -1,8 +1,8 @@
 #include <iomanip>
 #include <iostream>
 using namespace std;
+const double prColonial = 85.00, prClassical = 127.75, prModern = 57.50;
 int main() {
-        double prColonial = 85.00, prClassical = 127.75, prModern = 57.50;
         int amtColonial, amtClassical, amtModern;
         cout << "Please input the number of American Colonial chairs sold: " << endl;
         cin >> amtColonial;
