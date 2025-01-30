@@ -25,6 +25,9 @@ int main () {
                         tuiCost = osTui;
                         rmbdCost = osRmBd;
                         break;
+                default:
+                        cout << "You did NOT enter an 'I' or an 'O', please try again." << endl;
+                        return 1;
         }
         cout << "\nYour total bill for this semester is $";
         switch(rmbd) {
@@ -36,6 +39,9 @@ int main () {
                 case 'n':
                         cout << tuiCost << endl;
                         break;
+                default:
+                        cout << "You did NOT enter a 'Y' or an 'N', please try again." << endl;
+                        return 2;
         }
         return 0;
 }
