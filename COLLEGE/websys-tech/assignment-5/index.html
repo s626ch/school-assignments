@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <!-- 626 -->
+    <style>
+        .itmContainer{text-align:center;}
+    </style>
+</head>
+<body>
+    <div class="itmContainer">
+        <p id="exampleText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ratione qui laudantium pariatur sapiente omnis quidem quae voluptates optio reiciendis delectus atque, aut odit saepe excepturi eos iste, neque a!<br>
+            Maiores obcaecati deserunt, porro excepturi unde fugiat quod dolore hic. Magnam eaque nihil ut repellendus iste? Iste ipsa officiis ea. Repellat aspernatur fugit soluta dignissimos dolores unde voluptas nostrum labore.<br>
+            Ipsam iste assumenda sunt aliquam esse, fuga molestias? Iure nostrum odit dolorum cumque perspiciatis. Expedita officia deleniti architecto, consequuntur deserunt eveniet iste, doloremque sapiente numquam saepe unde? Dolores, eaque doloremque!<br>
+            Reiciendis voluptate dolores molestias nam! Error, expedita fugit! Magnam impedit assumenda facere veniam libero sapiente ducimus voluptate repellat dolorem esse alias amet, eaque, excepturi magni necessitatibus autem? Quidem, sunt quam.<br>
+            Voluptate aliquam inventore quas tempora perspiciatis. Eum, distinctio? Tempora quam totam sit cupiditate, quos minus magnam aspernatur vero dolor possimus minima perferendis aliquam hic quis maiores quo rem voluptatibus harum?<br>
+            Deleniti, quaerat possimus! Accusamus, voluptatum quod unde sequi, accusantium iusto vel facilis voluptas, possimus similique quae qui assumenda vero quaerat! Maiores reprehenderit corporis ea maxime iusto totam porro, suscipit sit!<br>
+            Sint ut in ab veritatis voluptates dicta officia explicabo, impedit sed odio aliquid numquam debitis inventore quam deserunt maiores vitae cupiditate nobis iste adipisci sunt. Iusto, reiciendis! Hic, eligendi quidem.<br>
+            Quos fuga in corporis aspernatur exercitationem culpa nesciunt possimus dolores? Laboriosam reiciendis ad, asperiores minus cum modi deleniti nesciunt vitae quibusdam aut molestias quo consequatur recusandae expedita aliquid? Explicabo, nesciunt?<br>
+            Repellat eum quo possimus impedit laboriosam! Facere libero eaque illum, itaque dolores odio. Eligendi iusto recusandae beatae amet omnis itaque, at, architecto quia adipisci rem nam dolore voluptate blanditiis aut.<br>
+            Libero perspiciatis earum, consequuntur architecto voluptas cum alias aliquam totam doloribus numquam similique saepe modi vel dignissimos rem ipsum. Excepturi laborum, odit neque quia tempore minima. Et similique nemo eos?<br>
+            <hr>
+            <label for="colSel" id="clsTex">Select a color option:</label>
+        </p>
+        <select name="colSel" id="colSel">
+            <option value="color">Default</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+        </select>
+    </div>
+    <script>
+        const clr = document.getElementById("colSel");
+        const tex = document.getElementById("exampleText");
+        const lbt = document.getElementById("clsTex");
+        const bod = document.body;
+        clr.addEventListener("change", function() {
+            const curVal = this.value;
+            switch(curVal) {
+                case "red":
+                    bod.style.backgroundColor = "red";
+                    tex.style.color = "white";
+                    lbt.style.color = "white";
+                    break;
+                case "green":
+                    bod.style.backgroundColor = "green";
+                    tex.style.color = "white";
+                    lbt.style.color = "white";
+                    break;
+                case "blue":
+                    bod.style.backgroundColor = "blue";
+                    tex.style.color = "white";
+                    lbt.style.color = "white";
+                    break;
+                default:
+                    bod.style.backgroundColor = "white";
+                    tex.style.color = "black";
+                    lbt.style.color = "black";
+                    break;
+            }
+        });
+    </script>
+</body>
+</html>
