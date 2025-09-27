@@ -1,0 +1,7 @@
+Stitch player sprite taken from Lilo & Stitch: Search for Paradise, Plug & Play, Disney/Jakks Pacific - https://www.spriters-resource.com/plug_play/disneyjakkspacific/asset/206355/ - ripped by Bavoomian
+Cat sprite taken from Pac-Man 2: The New Adventures, SNES, BANDAI NAMCO - https://www.spriters-resource.com/snes/pacman2adventures/asset/37555/ - ripped by santa22
+House taken from Pokemon Emerald, GBA, Nintendo - https://www.spriters-resource.com/game_boy_advance/pokemonemerald/asset/8362/ - ripped by Lance
+Bell icon taken from Momodora: Moonlit Farewell, PC, Bombservice - https://www.spriters-resource.com/pc_computer/momodoramoonlitfarewell/asset/214748/ - ripped by thadiusII
+Grass background taken from Pokemon Emerald, GBA, Nintendo - https://www.spriters-resource.com/game_boy_advance/pokemonemerald/asset/19776/ - ripped by Previous
+Clock sprite was self-made.
+Background music "Stitchadv2" taken from Disney Friends, DS, Amaze/Disney - https://downloads.khinsider.com/game-soundtracks/album/disney-friends-nintendo-ds
