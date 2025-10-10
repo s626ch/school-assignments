@@ -1,23 +1,24 @@
 using UnityEngine;
 using UnityEngine.Rendering;
+// this script is more or less the same as the cat script, except things are inverted
+// ie, instead of moving away from the player they move towards, and when the player
+// calls the cats, the enemies run away
+//
+// also, when collided, the enemy will "blow up" both itself and the player
 
-public class catScript : MonoBehaviour
+public class enemyScript : MonoBehaviour
 {
     Rigidbody2D rb;
     SpriteRenderer sr;
     Vector2 del;
     private Vector3 prevPos;
     public float speed = 1.0f;
-    public float stopProximity = 0.25f;
-    public string targetTag = "Player"; // tag of target to run away from
+    public float stopProximity = 0.1f;
+    public string targetTag = "Player"; // tag of target to run towards
     Rigidbody2D grb;
     GameObject g;
     GameObject chaseTimer;
     public Animator anim;
-    /*
-    GameObject g = GameObject.FindWithTag(targetTag);
-    grb = g.GetComponent<Rigidbody2D>();
-    */
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -37,26 +38,23 @@ public class catScript : MonoBehaviour
             grb = g.GetComponent<Rigidbody2D>();
             // distance to target in each dimension using entire position vector
             del = grb.position - rb.position;
-            // dont move if the distance to target is below the proximity
             if (del.magnitude > stopProximity)
             {
                 del.Normalize();
                 if (chaseTimer != null)
                 {
-                    rb.position += del * speed * Time.deltaTime;
+                    rb.position -= del * speed * Time.deltaTime;
                 }
                 else
                 {
-                    rb.position -= del * speed * Time.deltaTime;
+                    rb.position += del * speed * Time.deltaTime;
                 }
             }
-        }
-        // stop cats walking if the player isnt present
-        if(g==null)
+        } // stop enemies walking if the player isnt present, for if theres multiple on screen
+        if(g == null)
         {
-            anim.Play("walk", 0, 0f);
+            anim.Play("bobOmb", 0, 0f);
             anim.speed = 0;
-            //Destroy(anim);
         }
     }
     void FixedUpdate()
@@ -71,5 +69,14 @@ public class catScript : MonoBehaviour
             sr.flipX = true;
         }
         prevPos = transform.position;
+    }
+    // remove both enemy and player when collided with
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag(targetTag))
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
     }
 }

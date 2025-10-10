@@ -10,6 +10,7 @@ TagManager:
   - Cat
   - Chase
   - UseObj
+  - Enemy
   layers:
   - Default
   - TransparentFX

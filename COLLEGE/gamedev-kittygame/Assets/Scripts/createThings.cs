@@ -11,6 +11,7 @@ public class createThings : MonoBehaviour
     public float ylimit = 2;
     public bool useScreenSizeForLimit = false;
     public bool enableRotation = false;
+    public bool roundToInt = false;
     float cameraHeight;
     float cameraWidth;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -25,17 +26,29 @@ public class createThings : MonoBehaviour
             cameraHeight = cameraHeight - cameraOffset; // offset for sprite, adjustable for fairer spawns
             cameraWidth = cameraWidth - cameraOffset;
         }
-        for(int i = 0; i < count; i++)
+        for (int i = 0; i < count; i++)
         {
-            GameObject g;
-            if (useScreenSizeForLimit == false)
+            Vector2 position;
+            // round to whole ints for spawn position, this is used for the holes
+            if (roundToInt == true)
             {
-                g = Instantiate(prefab, new Vector2(Random.Range(-xlimit, xlimit), Random.Range(-ylimit, ylimit)), Quaternion.identity); // random location, no rotation, instantiated
-            } else // between coordinates of current screen area, ideal for games where the camera doesnt move
-            {
-                g = Instantiate(prefab, new Vector2(Random.Range(-cameraWidth, cameraWidth), Random.Range(-cameraHeight, cameraHeight)), Quaternion.identity); // random location, no rotation, instantiated
+                // are we using the screen size? or not, if we are, use the camera screen size, otherwise random defined limits
+                float x = useScreenSizeForLimit ? Random.Range(-cameraWidth, cameraWidth) : Random.Range(-xlimit, xlimit);
+                float y = useScreenSizeForLimit ? Random.Range(-cameraHeight, cameraHeight) : Random.Range(-ylimit, ylimit);
+                position = new Vector2(Mathf.RoundToInt(x), Mathf.RoundToInt(y));
             }
-            if(enableRotation == true) { 
+            else // without rounding to whole ints
+            {
+                // are we using the screen size? or not, if we are, use the camera screen size, otherwise random defined limits
+                float x = useScreenSizeForLimit ? Random.Range(-cameraWidth, cameraWidth) : Random.Range(-xlimit, xlimit);
+                float y = useScreenSizeForLimit ? Random.Range(-cameraHeight, cameraHeight) : Random.Range(-ylimit, ylimit);
+                position = new Vector2(x, y);
+            }
+            // instantiate the prefab
+            GameObject g = Instantiate(prefab, position, Quaternion.identity);
+            // do we want stuff to rotate?
+            if (enableRotation == true)
+            {
                 Rigidbody2D grb = g.GetComponent<Rigidbody2D>();
                 grb.rotation = Random.Range(0, 359);
             }

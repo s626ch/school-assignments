@@ -5,3 +5,5 @@ Bell icon taken from Momodora: Moonlit Farewell, PC, Bombservice - https://www.s
 Grass background taken from Pokemon Emerald, GBA, Nintendo - https://www.spriters-resource.com/game_boy_advance/pokemonemerald/asset/19776/ - ripped by Previous
 Clock sprite was self-made.
 Background music "Stitchadv2" taken from Disney Friends, DS, Amaze/Disney - https://downloads.khinsider.com/game-soundtracks/album/disney-friends-nintendo-ds
+Bob-Omb sprite custom made by TheEric132 on The Spriters Resource - https://www.spriters-resource.com/custom_edited/mariocustoms/asset/458874/
+Hole taken from Pokemon FireRed / LeafGreen, GBA, Nintendo - https://www.spriters-resource.com/game_boy_advance/pokemonfireredleafgreen/asset/3780/

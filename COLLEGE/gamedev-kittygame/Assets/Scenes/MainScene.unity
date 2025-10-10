@@ -602,6 +602,7 @@ MonoBehaviour:
   ylimit: 2
   useScreenSizeForLimit: 1
   enableRotation: 0
+  roundToInt: 0
 --- !u!4 &1041164912
 Transform:
   m_ObjectHideFlags: 0
@@ -654,6 +655,7 @@ MonoBehaviour:
   ylimit: 2
   useScreenSizeForLimit: 1
   enableRotation: 0
+  roundToInt: 0
 --- !u!4 &1123299275
 Transform:
   m_ObjectHideFlags: 0
@@ -661,6 +663,112 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123299273}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1215688787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1215688789}
+  - component: {fileID: 1215688788}
+  m_Layer: 0
+  m_Name: HoleSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1215688788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215688787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d4fc0b5308d43e418a368e3af7655d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::createThings
+  prefab: {fileID: 5774191944969057715, guid: fcbff833348eaf94f946046abb26b93f, type: 3}
+  lowerLimit: 1
+  upperLimit: 4
+  cameraOffset: 2
+  xlimit: 5
+  ylimit: 2
+  useScreenSizeForLimit: 1
+  enableRotation: 0
+  roundToInt: 1
+--- !u!4 &1215688789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215688787}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1726107993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1726107995}
+  - component: {fileID: 1726107994}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1726107994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726107993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d4fc0b5308d43e418a368e3af7655d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::createThings
+  prefab: {fileID: 8527556998226690048, guid: bf6293c07bb52fd47819653ff546d462, type: 3}
+  lowerLimit: 1
+  upperLimit: 4
+  cameraOffset: 4
+  xlimit: 5
+  ylimit: 2
+  useScreenSizeForLimit: 1
+  enableRotation: 0
+  roundToInt: 0
+--- !u!4 &1726107995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726107993}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -870,5 +978,7 @@ SceneRoots:
   - {fileID: 380152780}
   - {fileID: 1123299275}
   - {fileID: 1041164912}
+  - {fileID: 1726107995}
+  - {fileID: 1215688789}
   - {fileID: 1949705982}
   - {fileID: 541774822}
