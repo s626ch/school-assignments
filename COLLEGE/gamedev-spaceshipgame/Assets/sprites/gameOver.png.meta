@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 893a6f7b8636b09458f170166e5cbedb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7611342515684761092
+    second: gameOver_0
+  - first:
+      213: -4405485122537896192
+    second: gameOver_1
+  - first:
+      213: 4172878908621148135
+    second: gameOver_2
+  - first:
+      213: -305049171068257294
+    second: gameOver_3
+  - first:
+      213: -2055839223599036144
+    second: gameOver_4
+  - first:
+      213: -6471198068294991783
+    second: gameOver_5
+  - first:
+      213: -3203740759007957479
+    second: gameOver_6
+  - first:
+      213: -4398578605751916353
+    second: gameOver_7
+  - first:
+      213: 2546326302825152440
+    second: gameOver_8
+  - first:
+      213: 4803016233759434585
+    second: gameOver_9
+  - first:
+      213: -4843966438240948085
+    second: gameOver_10
+  - first:
+      213: -1477671033755778208
+    second: gameOver_11
+  - first:
+      213: 7680229905811843810
+    second: gameOver_12
+  - first:
+      213: -894388182494512010
+    second: gameOver_13
+  - first:
+      213: -6162406717519211542
+    second: gameOver_14
+  - first:
+      213: 6768431783563472299
+    second: gameOver_15
+  - first:
+      213: -5860311535039102863
+    second: gameOver_16
+  - first:
+      213: -8172313328554565874
+    second: gameOver_17
+  - first:
+      213: 5542816364197826215
+    second: gameOver_18
+  - first:
+      213: 9173805050284375925
+    second: gameOver_19
+  - first:
+      213: 4292744498366820430
+    second: gameOver_20
+  - first:
+      213: -4727861195957685303
+    second: gameOver_21
+  - first:
+      213: 1997066269566747021
+    second: gameOver_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gameOver_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 67
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ed73ff0bbe0a960800000000000000
+      internalID: 7611342515684761092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 303e5bb55e6f3bd45a1c2fc3c59e2d78
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gameOver_0: 7611342515684761092
+      gameOver_1: -4405485122537896192
+      gameOver_10: -4843966438240948085
+      gameOver_11: -1477671033755778208
+      gameOver_12: 7680229905811843810
+      gameOver_13: -894388182494512010
+      gameOver_14: -6162406717519211542
+      gameOver_15: 6768431783563472299
+      gameOver_16: -5860311535039102863
+      gameOver_17: -8172313328554565874
+      gameOver_18: 5542816364197826215
+      gameOver_19: 9173805050284375925
+      gameOver_2: 4172878908621148135
+      gameOver_20: 4292744498366820430
+      gameOver_21: -4727861195957685303
+      gameOver_22: 1997066269566747021
+      gameOver_23: 351305078
+      gameOver_3: -305049171068257294
+      gameOver_4: -2055839223599036144
+      gameOver_5: -6471198068294991783
+      gameOver_6: -3203740759007957479
+      gameOver_7: -4398578605751916353
+      gameOver_8: 2546326302825152440
+      gameOver_9: 4803016233759434585
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

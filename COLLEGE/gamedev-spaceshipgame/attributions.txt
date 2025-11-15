@@ -1,0 +1,5 @@
+Explosion Sprite taken from Crystalis, NES, SNK - https://www.spriters-resource.com/nes/crystalisgodslayer/asset/23547/
+Various Sprites taken from Galaga, NES, Bandai Namco - https://www.spriters-resource.com/nes/galaga/asset/26475/
+Rocks taken from Pokemon Mystery Dungeon: Red Rescue Team, GBA, Nintendo/Chunsoft - https://www.spriters-resource.com/game_boy_advance/pokemonmysterydungeonredrescueteam/asset/41326/
+Space Background taken (and modified) from Chips Ahoy! Space Conquest, Shockwave Flash (Browser), Skyworks Technologies/Nabisco - https://www.spriters-resource.com/browser_games/chipsahoyspaceconquest/asset/149502/
+Background Music "ECCOと悪寒ダイビング (Chill Divin' with ECCO)" by Macintosh Plus (Vektroid), on "Floral Shoppe" (2011). Released under Beer on the Rug. 

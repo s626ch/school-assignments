@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: ca3b20387f1a2de44985fa369385ad51
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6970196382551006441
+    second: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713a55bd153e44f90800000000000000
+      internalID: -6970196382551006441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 70
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5458f12f478ef464495893709e82763a
+      internalID: 383137736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 70
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305d392b1f53ea740824fcfc30fdd00b
+      internalID: -1824191419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 70
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6529cb3ca64cd4c41880b617deedf701
+      internalID: 1871092364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 70
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d2d96f4b71f9441b65c3f91a874813
+      internalID: 1030858147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 70
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a066423df9aae2b4799f08c5756e8637
+      internalID: -1522243903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 70
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b5dc3268e26f2469bdef7cb6fa37be
+      internalID: 836336146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 70
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc60be2e4562b54a8c6a3a721bd8a37
+      internalID: 736386305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 70
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbb10722511af844bd675a820b13711
+      internalID: -199883550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840b065ad506db04f90919addad7f2fa
+      internalID: -1949160133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 35
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90f5e7aa16866f46879804d64b58767
+      internalID: 1308129502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_11
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 35
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e793e0e7884c5644db5a9461843aaffa
+      internalID: 1947570791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_12
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 35
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abe14a412f7e2e4cb22eefcc3f62a62
+      internalID: 91175428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_13
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 35
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6f15647f489824697200da0b3a7faf
+      internalID: -1306664381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_14
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 35
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f38c03d3e9d2194d9be4325c351a396
+      internalID: -1377097949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 35
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf92b3d100521d4789efdb2b126b5b3
+      internalID: 1909306304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_16
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 35
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef61a62d8bd21941894f51640e73b41
+      internalID: -76801014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 35
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be8931816f7ab94a96a5761547c9132
+      internalID: 2056213149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c931b31f944fb5a44b122b90d3a070f5
+      internalID: 1598345196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_19
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab296ea09b059b4cbe46c67742448fa
+      internalID: -1707375417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3b065563352464e9b9fe6cc4350ac7
+      internalID: 288133860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8904cc35e76b34ebf813e7b9128407
+      internalID: -438427292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_22
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012028fe5d223444e91afff6826137e4
+      internalID: 1930921851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_23
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4244d71d333984e9081dcf36212d57
+      internalID: -2044559850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_24
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e4f6c28274d0f4cbcf8035238f0e14
+      internalID: -96742900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c21ae31612d5342a3f7b87b12249b5
+      internalID: -204090167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c80262f8d788342a65422988c93c50
+      internalID: 1154482542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9ad926009941be94d919ddaed191c1fb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_0: -6970196382551006441
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_1: 383137736
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_10: 1308129502
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_11: 1947570791
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_12: 91175428
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_13: -1306664381
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_14: -1377097949
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_15: 1909306304
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_16: -76801014
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_17: 2056213149
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_18: 1598345196
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_19: -1707375417
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_2: -1824191419
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_20: 288133860
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_21: -438427292
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_22: 1930921851
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_23: -2044559850
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_24: -96742900
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_25: -204090167
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_26: 1154482542
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_3: 1871092364
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_4: 1030858147
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_5: -1522243903
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_6: 836336146
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_7: 736386305
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_8: -199883550
+      PC _ Computer - Momodora_ Moonlit Farewell - Map Objects - Save Bell_9: -1949160133
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
